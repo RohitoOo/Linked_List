@@ -25,7 +25,7 @@ this.add = function(element){
   if(head === null){
     head = node;
   }
-  // there is more and one element in the node
+  // there one and/or more elements in the node
   else {
     // start at the beginning
     var currentNode = head;
@@ -34,7 +34,7 @@ this.add = function(element){
     currentNode = currentNode.next;
   }
 // we have reached the end of the list
-currentNode.next = node; 
+currentNode.next = node;
   }
 length++
 
